@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convention Center</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Font-awesome -->
+  <script src="https://kit.fontawesome.com/c058ffd073.js" crossorigin="anonymous"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <!-- navbar start -->
+    <nav class="container">
+      <nav class="fixed-top navbar navbar-expand-lg navbar-expand-md navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Samarai Convention Center</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active me-3" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <!-- navbar end -->
+    <!-- carousel start -->
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div style="background-image: url(images/banner.png);" class="carousel-item-1 position-relative">
+              <div class="d-flex flex-column align-items-center text-white carousel-contents text-center">
+                <h1>The perfect venue for your
+                  next event</h1>
+                <p>This website is made to help you find a perfect place for your program. We do provide some service
+                  for your event such as stage decoration, photography etc.</p>
+                <a href="https://communitycenterbd.com/" target="_blank"> <button class="btn btn-primary">Book
+                    Now</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div style="background-image: url(images/banner-2.jpg);" class="carousel-item-2 position-relative">
+              <div class="d-flex flex-column align-items-center text-white carousel-contents text-center">
+                <h1>The perfect venue for your
+                  next event</h1>
+                <p>This website is made to help you find a perfect place for your program. We do provide some service
+                  for your event such as stage decoration, photography etc.</p>
+                <button>Book Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div style="background-image: url(images/banner-3.jpg);" class="carousel-item-3 position-relative">
+              <div class="d-flex flex-column align-items-center text-white carousel-contents text-center">
+                <h1>The perfect venue for your
+                  next event</h1>
+                <p>This website is made to help you find a perfect place for your program. We do provide some service
+                  for your event such as stage decoration, photography etc.</p>
+                <button class="btn btn-primary">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- carousel end -->
+  </header>
+  <main>
+    <!-- toast start -->
+    <section>
+      <div
+        class="toast show border-primary border-start-5 border-top-0 border-end-0 border-bottom-0 border-5 position-absolute end-0 top-100"
+        role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="icons/Vector.svg" class="rounded me-3" alt="...">
+          <strong class="me-auto">20% off on next booking</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close">
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- toast end -->
+    <!-- our package section start -->
+    <section class="my-5">
+      <h2 class="text-center mb-5 package-title">Our Package</h2>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <!-- card-1 -->
+          <div class="col">
+            <div class="card h-100  border border-0 package-cards">
+              <div class="card-body">
+                <h2 class="card-title">Business Fair</h2>
+                <h2 class="card-title">$300</h2>
+                <p class="card-text">For most businesses event
+                  like book fair, craft fair.</p>
+                <p><i class="fa-solid fa-circle-check"></i> limited space acces</p>
+                <p><i class="fa-solid fa-circle-check"></i> Secuirty facility</p>
+                <p><i class="fa-solid fa-circle-check"></i> event support</p>
+                <p><i class="fa-solid fa-circle-check"></i> Decoration design</p>
+                <p><i class="fa-solid fa-circle-check"></i> Per day bill </p>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button class="choose-plan-btn btn btn-light text-primary mb-2 w-75 rounded-pill">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="col">
+            <div class="card h-100  border border-0 package-cards">
+              <div class="card-body">
+                <h2 class="card-title">$500</h2>
+                <h2 class="card-title">Wedding Basic</h2>
+                <p class="card-text">For weddings with basic plan
+                  and limited item.</p>
+                <p><i class="fa-solid fa-circle-check"></i> Full space access</p>
+                <p><i class="fa-solid fa-circle-check"></i> Food arrangement</p>
+                <p><i class="fa-solid fa-circle-check"></i> mangement support</p>
+                <p><i class="fa-solid fa-circle-check"></i> Decoration design</p>
+                <p><i class="fa-solid fa-circle-check"></i> Billed as shift</p>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button class="choose-plan-btn btn btn-light text-primary mb-2 w-75 rounded-pill">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="col">
+            <div class="card h-100 border border-0 hot-offer-card package-cards shadow-lg">
+              <span class="badge rounded-pill bg-danger px-3 position-absolute top-0 end-0">Hot</span>
+              <div class="card-body ">
+                <h2 class="card-title text-white">$800</h2>
+                <h2 class="card-title text-white">Wedding Plus</h2>
+                <p class="card-text text-white">For most weddings with premium plans.</p>
+                <p class="text-white"><i class="fa-solid fa-circle-check"></i> Full space access</p>
+                <p class="text-white"><i class="fa-solid fa-circle-check"></i> Dedicated team</p>
+                <p class="text-white"><i class="fa-solid fa-circle-check"></i> Buffet food</p>
+                <p class="text-white"><i class="fa-solid fa-circle-check"></i> premium Decoration</p>
+                <p class="text-white"><i class="fa-solid fa-circle-check"></i> pay as plan</p>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button class="choose-plan-btn btn btn-light text-primary mb-2 w-75 rounded-pill"
+                  id="hot-offer-btn">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div class="col">
+            <div class="card h-100  border border-0 package-cards">
+              <div class="card-body">
+                <h2 class="card-title">$1200</h2>
+                <h2 class="card-title">Corporate event</h2>
+                <p class="card-text">For most corporate business
+                  events.</p>
+                <p><i class="fa-solid fa-circle-check"></i> Full space access</p>
+                <p><i class="fa-solid fa-circle-check"></i> Food arrangement</p>
+                <p><i class="fa-solid fa-circle-check"></i> Management support</p>
+                <p><i class="fa-solid fa-circle-check"></i> Decoration design</p>
+                <p><i class="fa-solid fa-circle-check"></i> Bill as shift</p>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button class="choose-plan-btn btn btn-light text-primary mb-2 w-75 rounded-pill"> <span>Choose
+                    Plan</span> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our package section end -->
+    <!-- features/offering section start -->
+    <section class="container mt-5 text-center">
+      <h2 class="package-title text-center my-5">We are offering</h2>
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card mb-3 border border-0" style="max-width: 540px;">
+            <div class="row g-0 d-flex align-items-center">
+              <div class="col-md-4">
+                <img src="icons/service-1.png" class="img-fluid ms-4" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Capacity</h5>
+                  <p class="card-text">1200</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3 border border-0" style="max-width: 540px;">
+            <div class="row g-0 d-flex align-items-center">
+              <div class="col-md-4">
+                <img src="icons/service-2.png" class="img-fluid ms-4" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Batch</h5>
+                  <p class="card-text">300</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3 border border-0" style="max-width: 540px;">
+            <div class="row g-0 d-flex align-items-center">
+              <div class="col-md-4">
+                <img src="icons/service-3.png" class="img-fluid ms-4" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Area Size</h5>
+                  <p class="card-text">6500 sq ft</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3 border border-0" style="max-width: 540px;">
+            <div class="row g-0 d-flex align-items-center">
+              <div class="col-md-4">
+                <img src="icons/service-4.png" class="img-fluid ms-4" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Garage</h5>
+                  <p class="card-text">Available</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- features section end -->
+    <!-- FAQ Section Start -->
+    <section class="container mb-5 accordion-container">
+      <h2 class="package-title text-center my-5">Frequently Asked Questions</h2>
+      <!-- accordion -->
+      <div class="row g-5">
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="accordion open" id="accordionExample">
+            <div class="accordion-item m-2">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <h5>What’s the difference between event design and event planning? </h5>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Event design and event planning work hand in hand to deliver a successful event.Events by Knight
+                    offer tailor made events. This means we incorporate both event design and event planning to create
+                    that perfect event.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item m-2">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h5>How early do we need to start planning an event</h5>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Event design and event planning work hand in hand to deliver a successful event.Events by Knight
+                    offer tailor made events. This means we incorporate both event design and event planning to create
+                    that perfect event.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item m-2">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h5>What is your refund and cancellation policy?</h5>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Event design and event planning work hand in hand to deliver a successful event.Events by Knight
+                    offer tailor made events. This means we incorporate both event design and event planning to create
+                    that perfect event.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item m-2">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <h5>How do you keep budgets on track?</h5>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p> Event design and event planning work hand in hand to deliver a successful event.Events by Knight
+                    offer tailor made events. This means we incorporate both event design and event planning to create
+                    that perfect event.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12 d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="images/people.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- FAQ Section End -->
+  <!-- Form section start -->
+  <!-- Section: Design Block -->
+  <section class="text-center container">
+    <div class="card-body px-md-5 bg-light bg-gradient shadow-lg mb-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="mb-5 package-title">Sign up now</h2>
+          <form>
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-12 mb-4">
+                <div>
+                  <input type="text" required class="form-control" />
+                  <label class="form-label">First name</label>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 col-12 mb-4">
+                <div>
+                  <input type="text" required class="form-control" />
+                  <label class="form-label">Last name</label>
+                </div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <input type="email" required class="form-control" />
+              <label class="form-label">Email address</label>
+            </div>
+            <div class="mb-4">
+              <input type="password" required class="form-control" />
+              <label class="form-label">Password</label>
+            </div>
+            <div class=" d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" checked />
+              <label class="form-check-label">
+                Subscribe to our newsletter
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary rounded-pill mb-4">
+              Sign up
+            </button>
+            <div class="text-center">
+              <p>or sign up with:</p>
+              <button type="button" class="btn btn-link mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+              <button type="button" class="btn btn-link mx-1">
+                <i class="fab fa-google"></i>
+              </button>
+              <button type="button" class="btn btn-link mx-1">
+                <i class="fab fa-twitter"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Form section end -->
+  <!-- Footer Section -->
+  <footer class="bg-black p-5">
+    <div class="container d-flex text-white flex-wrap-reverse">
+      <div class="col-lg-8 d-flex align-items-center m-auto">
+        <p class="p-3">© 2022 All rights reserved</p>
+      </div>
+      <div class="col-lg-4 mt-5 m-auto">
+        <p>Get the app</p>
+        <div class="p-2">
+          <a href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849" target="_blank"><img
+              src="icons/appstore.png" class="border border-2 rounded-pill" width="135"></a>
+        </div>
+        <div class="p-2">
+          <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp" target="_blank"><img
+              src="icons/playstore.png" class="border border-2 rounded-pill" width="135"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+</html>

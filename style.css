@@ -1,0 +1,91 @@
+  /* Image carousel */
+  .carousel-item-1, .carousel-item-2, .carousel-item-3{
+    height: 90vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.carousel-contents{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    right: 15%;
+}
+.carousel-contents h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+}
+.carousel-contents p{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+}
+.carousel-contents button{
+    width: 168px;
+    height: 44px;
+    background-color: #fff;
+    color: #3F87F5;
+    border: none;
+    border-radius: 5px;
+    padding: 10px
+}
+/* Our package section */
+.package-title{
+  color: #0a0826;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+}
+.package-cards h2{
+  color: #231D4F;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 30px;
+}
+.package-cards p{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 15px;
+  color: #848199;
+}
+.choose-plan-btn{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+.hot-offer-card{
+  border-radius: 26px;
+  background-color: #3F87F5;
+}
+/* FAQ Section */
+.accordion-container{
+  margin-top: 100px;
+}
+.accordion-container h5{
+  font-weight: 500;
+  font-size: 20px;
+  color: #383838;
+  font-family: 'Inter', sans-serif;
+}
+.accordion-container p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #7E848C;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom media query */
+@media only screen and (max-width:575px) {
+    .carousel-contents h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 28px;
+}
+.carousel-contents p{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 20px;
+}
+}
